@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style_home.css">
+  </head>
+
+  <body>
+    <main>
+        <div class="header-img"></div>
+    </main>
+
+    <div class="ontop">
+  <ul>
+      <li><a class="active" href="home.html">Home</a></li>
+      <li><a href="cookbook.html">Malaysian Cuisine</a></li>
+      <li><a href="ingredients.html">Ingredients</a>
+        <ul>
+          <li> <a href="ing_kicap.html">Soy Sauce</a> </li>
+          <li> <a href="ing_soscili.html">Thai Chili Sauce</a> </li>
+          <li> <a href="ing_bawang.html">Bawang Goreng</a> </li>
+        </ul>
+      </li>
+      <li><a href="events.html">Special Events</a>
+        <ul>
+          <li> <a href="events.html">Eid al-Fitri</a> </li>
+          <li> <a href="events.html">Chinese New Year</a> </li>
+          <li> <a href="events.html">Deepavali</a> </li>
+          <li> <a href="events.html">Christmas</a> </li>
+        </ul>
+      </li>
+      <li><a href="tips.html">Tips & Insight</a>
+        <ul>
+          <li> <a href="tips.html">Cooking 101</a> </li>
+          <li> <a href="tips.html">Cooking Tips & Tricks</a> </li>
+        </ul>
+      </li>
+      <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  </div>
+
+    <div class="title-img"> </div>
+
+    <div class="content">
+      <button type="button" class="btn" onclick="document.getElementById('time1').innerHTML=Date() + ' (double click button to hide)'"
+    ondblclick="document.getElementById('time1').innerHTML=' '">What time & day is it in Malaysia now?</button>
+
+     <p id="time1"></p>
+   </div>
+
+      <div class="content">
+      <h3>About</h3>
+
+        <p><br>We welcome  food lovers from all over the world
+                  especially those who love cooking and always want to try new recipes.<br><br>
+                  Malaysia, a melting pot of culture, with different races living harmoniously together,
+                   is one of the top food heaven in Asia. <br><br>Hence, this website named “Yum-MY”
+                   which is a wordplay on the words “yummy” and “MY” - the standard short form used for Malaysia - comes to life. </p> <br><br><br>
+
+        <p>We intend to share Malaysian <a href="cookbook.html"> cuisine recipes </a>-
+                   where the emphasis will be on three major cuisines
+                   which are Malay, Indian and Chinese Cuisine.<br><br>
+                   Occasionally, we also cover food from other races.
+                   We also cover <a href="events.html">specific recipes </a>that are popular
+                   in certain holidays and events in Malaysia.<br><br>
+                   In addition, we also provide a few cooking <a href="tips.html"> tips and tricks </a>
+                   to help people that find difficulty to cook Malaysian food.<br><br>
+                   On top of that, we also have our own rank of
+                   the best <a href="ingredients.html"> local products </a>
+                   to help the audience to get a better understanding of each product from each brand.</p>
+
+    </div>
+
+    <main class="container1">
+      <section class="card">
+          <img src=Image/sate.jpg title="Sate." alt="sate">
+          <div class="content">
+              <br><br><h3>Malaysian Cuisine</h3><br>
+              <p>Welcome! Is this your first encounter with Malaysia? <br> Fret not, we are a very warm multiracial country.<br>
+              Multiracial also means that we have abundant of cuisine from various culture you can choose to learn from!</p><br><br>
+
+              <button type="button" class="btn" onclick="alertMessage1()">Brief Info</button>
+              <a href="cookbook.html" class="btn">Read more!</a>
+          </div>
+      </section>
+
+      <section class="card">
+          <img src="Image/bahan.jpg" title="Good ingredients make good food." alt="good ingredients make good food"> <!--letak gambar kat sini and edit-->
+          <div class="content">
+              <br><br><h3>Ingredients</h3><br>
+              <p>Stepping up your cooking game with <br> recommended local products from our experts. <br>
+                Perhaps your delicious dipping sauce can be <br>extra tastier after using our recommended brands. <br>
+                After all, top-tier products produce top-tier food!</p><br><br> <!--letak ayat kat sini-->
+
+              <button type="button" class="btn" onclick="alertMessage2()">Brief Info</button>
+              <a href="ingredients.html" class="btn">Read more!</a>
+          </div>
+      </section>
+
+      <section class="card">
+          <img src="Image/lantern.jpg" title="Lanterns in Penang." alt="lanterns in Penang">
+          <div class="content">
+              <br><br><h3>Special Events</h3><br>
+              <p>Find out various special dishes available in Malaysia <br> during various celebration celebrated here. <br>
+              Who knows you would be able to have your own sate, <br>nasi himpit and kuah kacang in your home <br>even if it's not Hari Raya yet!</p><br><br>
+
+              <button type="button" class="btn" onclick="alertMessage3()">Brief Info</button>
+              <a href="events.html" class="btn">Read more!</a>
+          </div>
+      </section>
+
+    <section class="card">
+    <img src="Image/ikan.jpg" title="Fresh fish." alt="fresh fish"> <!--letak gambar kat sini and edit-->
+    <div class="content">
+        <br><br><h3>Tips & Insight</h3><br>
+      <p>We are sharing our top-secrets that you can <br> use to make your kitchen experience a lot more easier!<br>
+      (Shhhh! Don't tell others that you know <br>faster way to peel those garlics)</p><br><br> <!--letak ayat kat sini-->
+
+      <button type="button" class="btn" onclick="alertMessage4()">Brief Info</button>
+        <a href="tips.html" class="btn">Read more!</a>
+    </div>
+    </section>
+    </main>
+
+
+
+    <script>
+      function alertMessage1(){
+        alert("Have fun exploring various recipes that we have here. Click 'Read more' to find out more!");
+      }
+      function alertMessage2(){
+        alert("Top local brands to help you get the authentic taste of local Malaysian dish. Click 'Read more' to find out more!");
+      }
+      function alertMessage3(){
+        alert("The best thing with a lot of celebration in Malaysia? A lot of scrumptious food to try! Click 'Read more' to find out more!");
+      }
+      function alertMessage4(){
+        alert("Amazing cooking hacks to help you become a more efficient chef in your kitchen! Click 'Read more' to find out more!");
+      }
+    </script>
+
+<div class="fixed-footer">
+         Copyright &copy; 2020 En-Lite
+    </div>
+
+  </body>
+</html>
