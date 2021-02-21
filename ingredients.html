@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredients</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style_ing.css">
+    <script src="script_ing.js"> </script>
+  </head>
+
+  <body>
+    <main>
+        <div class="header-img"> </div>
+    </main>
+
+    <div class="ontop">
+  <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="cookbook.html">Malaysian Cuisine</a></li>
+      <li><a class="active" href="ingredients.html">Ingredients</a>
+        <ul>
+          <li> <a href="ing_kicap.html">Soy Sauce</a> </li>
+          <li> <a href="ing_soscili.html">Thai Chili Sauce</a> </li>
+          <li> <a href="ing_bawang.html">Bawang Goreng</a> </li>
+        </ul>
+      </li>
+      <li><a href="events.html">Special Events</a>
+        <ul>
+          <li> <a href="events.html">Eid al-Fitri</a> </li>
+          <li> <a href="events.html">Chinese New Year</a> </li>
+          <li> <a href="events.html">Deepavali</a> </li>
+          <li> <a href="events.html">Christmas</a> </li>
+        </ul>
+      </li>
+      <li><a  href="tips.html">Tips & Insight</a>
+        <ul>
+          <li> <a href="tips.html">Cooking 101</a> </li>
+          <li> <a href="tips.html">Cooking Tips & Tricks</a> </li>
+        </ul>
+      </li>
+      <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  </div>
+
+    <div class="title-img"></div>
+
+    <div class="content">
+      <button type="button" class="btn" onclick="document.getElementById('time1').innerHTML=Date() + ' (double click button to hide)'"
+    ondblclick="document.getElementById('time1').innerHTML=' '">What time & day is it in Malaysia now?</button>
+
+     <p id="time1"></p>
+    </div>
+
+      <main class="container1">
+        <section class="card">
+            <img src=Image/kicap.jpg title="A good soy sauce is a game changer." alt="soy sauce.">
+            <div class="content">
+                <br><br><h3>Soy Sauce</h3>
+                <p><br>The battle of Malaysian best soy sauce.<br>
+                Find out which one between Kicap Kipas Udang,<br>
+                Kicap Tamin and Kicap ABC that fits your pallete.</p>
+                <button type="button" class="btn" onclick="alertMessage1()">What is Soy Sauce?</button>
+                <button type="button" class="btn" name="readmore" onclick="document.location='ing_kicap.html'">Read More!</button><br><br><br><br><br><br>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="Image/cilisos.jpg" title="Perfect for dipping." alt="chili sauce.">
+            <div class="content">
+                <br><br><h3>Thai Chili Sauce</h3>
+                <p><br>Maepranom Thai Chili Sauce?<br> Life Thai Chili Sauce?<br>
+                Kimball Chili Sauce? <br>Find out your favourite here!</p><br>
+                <button type="button" class="btn" onclick="alertMessage2()">What is Thai Chili Sauce?</button>
+                <button type="button" class="btn" name="readmore" onclick="document.location='ing_soscili.html'">Read More!</button><br><br><br><br><br>
+            </div>
+        </section>
+
+  <section class="card">
+      <img src="Image/bawang.jpg" title="Fresh shallot." alt="fresh shallot.">
+      <div class="content">
+          <br><br><h3>Bawang Goreng</h3>
+          <p><br>What's better than a dash of bawang goreng<br> on top of your nasi goreng?<br>
+           A dash of crispier and flavorful bawang goreng!</p><br>
+           <button type="button" class="btn" onclick="alertMessage3()">What is Bawang Goreng?</button>
+          <button type="button" class="btn" name="readmore" onclick="document.location='ing_bawang.html'">Read More!</button><br><br><br><br><br>
+      </div>
+  </section>
+</main>
+
+
+<div class="fixed-footer">
+         Copyright &copy; 2020 En-Lite
+    </div>
+
+    <script>
+      function alertMessage1(){
+        alert("Soy sauce, also known as Kicap here in Malaysia, is an East Asian liquid condiment of Chinese origin, with a fermented paste of soybeans as the main ingredient. Click 'Read more' to find out which brand of soy sauce suits you the best!");
+      }
+      function alertMessage2(){
+        alert("Thai Chili Sauce is almost similar to your typical chili sauce except for the fact that it is sweeter because of the addition of sweetening ingredient such as fruit or a refined sugar or honey. Click 'Read more' to find out which brand of Thai chili sauce suits you the best!");
+      }
+      function alertMessage3(){
+        alert("Bawang Goreng is crispy fried shallots condiment, a popular garnishing to be sprinkled upon various dishes. Click 'Read more' to find out which brand of Bawang Goreng suits you the best!");
+      }
+    </script>
+  </body>
+</html>

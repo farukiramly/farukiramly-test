@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSS/style_contact.css">
+
+    <script src="js/contact.js"> </script>
+
+  </head>
+
+  <body>
+      <main>
+          <div class="header-img"></div>
+      </main>
+
+        <div class="ontop">
+      <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="cookbook.html">Malaysian Cuisine</a></li>
+          <li><a href="ingredients.html">Ingredients</a>
+            <ul>
+              <li> <a href="ing_kicap.html">Soy Sauce</a> </li>
+              <li> <a href="ing_soscili.html">Thai Chili Sauce</a> </li>
+              <li> <a href="ing_bawang.html">Bawang Goreng</a> </li>
+            </ul>
+          </li>
+          <li><a href="events.html">Special Events</a>
+            <ul>
+              <li> <a href="events.html">Eid al-Fitri</a> </li>
+              <li> <a href="events.html">Chinese New Year</a> </li>
+              <li> <a href="events.html">Deepavali</a> </li>
+              <li> <a href="events.html">Christmas</a> </li>
+            </ul>
+          </li>
+          <li><a href="tips.html">Tips & Insight</a>
+          <ul>
+            <li> <a href="tips.html">Cooking 101</a> </li>
+            <li> <a href="tips.html">Cooking Tips & Tricks</a> </li>
+          </ul>
+          </li>
+          <li><a class="active" href="#contactus.html">Contact Us</a></li>
+      </ul>
+      </div>
+
+      <div class="title-img"></div>
+
+    <div class="wrapper">
+        <h2>Contact us</h2>
+        <p>Have any feedback or suggestion for our site? <br> Kindly share it with us so we can make this site better! <br> <br>
+           Disclaimer: We read everything you send us, <br>but we regret that we can't respond to each message personally.</p><br><br>
+        <div id="error_message">
+
+        </div>
+        <form action="" id="myform" onsubmit = "return validate();">
+          <div class="input_field">
+              <input type="text" placeholder="Name" id="name">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Subject" id="subject">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Phone" id="phone">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Email" id="email">
+          </div>
+          <div class="input_field">
+              <textarea placeholder="Message" id="message"></textarea>
+          </div>
+          <div class="btn">
+              <input type="submit">
+          </div>
+        </form>
+    </div>
+
+    <div class="fixed-footer">
+             Copyright &copy; 2020 En-Lite
+        </div>
+
+</html>

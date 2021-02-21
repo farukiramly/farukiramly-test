@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips & Insight</title>
+        <link rel="stylesheet" href="CSS/style_tips.css">
+        <script type="text/javascript">
+        var i=0;
+        function read(){
+          if(!i){
+            document.getElementById("more").style.display="inline";
+            document.getElementById("dots").style.display="none";
+            document.getElementById("read").innerHTML="View Less";
+            i=1;
+          } else {
+            document.getElementById("more").style.display="none";
+            document.getElementById("dots").style.display="inline";
+            document.getElementById("read").innerHTML="View More";
+            i=0;
+          }
+        }
+        function read2(){
+          if(!i){
+            document.getElementById("more2").style.display="inline";
+            document.getElementById("dots2").style.display="none";
+            document.getElementById("read2").innerHTML="View Less";
+            i=1;
+          } else {
+            document.getElementById("more2").style.display="none";
+            document.getElementById("dots2").style.display="inline";
+            document.getElementById("read2").innerHTML="View More";
+            i=0;
+          }
+        }
+        function read3(){
+          if(!i){
+            document.getElementById("more3").style.display="inline";
+            document.getElementById("dots3").style.display="none";
+            document.getElementById("read3").innerHTML="View Less";
+            i=1;
+          } else {
+            document.getElementById("more3").style.display="none";
+            document.getElementById("dots3").style.display="inline";
+            document.getElementById("read3").innerHTML="View More";
+            i=0;
+          }
+        }
+        function tips1(){
+          window.location.href="tips1.html";
+        }
+
+        function tips2(){
+          window.location.href="tips2.html";
+        }
+
+        </script>
+
+  </head>
+  <body>
+
+        <div class="header-img"></div>
+
+
+      <div class="ontop">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="cookbook.html">Malaysian Cuisine</a></li>
+        <li><a href="ingredients.html">Ingredients</a>
+          <ul>
+            <li> <a href="ing_kicap.html">Soy Sauce</a> </li>
+            <li> <a href="ing_soscili.html">Thai Chili Sauce</a> </li>
+            <li> <a href="ing_bawang.html">Bawang Goreng</a> </li>
+          </ul>
+        </li>
+        <li><a href="events.html">Special Events</a>
+          <ul>
+            <li> <a href="events.html">Eid al-Fitri</a> </li>
+            <li> <a href="events.html">Chinese New Year</a> </li>
+            <li> <a href="events.html">Deepavali</a> </li>
+            <li> <a href="events.html">Christmas</a> </li>
+          </ul>
+        </li>
+        <li><a class="active" href="#tips.html">Tips & Insight</a>
+          <ul>
+            <li> <a href="#Cooking101">Cooking 101</a> </li>
+            <li> <a href="#Cookingtips">Cooking Tips & Tricks</a> </li>
+          </ul>
+        </li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+    </div>
+
+    <div class="title-img"></div>
+
+<span><a name="Cooking101"><h1>Cooking101</h1></a></span>
+
+
+
+  <div class="container">
+
+    <div class="box">
+      <div class="tips">
+
+          <a href="https://www.youtube.com/embed/UJ5sMtgu_GA"><iframe width="350" height="260"src="https://www.youtube.com/embed/UJ5sMtgu_GA"> </iframe> </a>
+      </div>
+      <div class="subtitle">
+        <a href="https://www.youtube.com/embed/UJ5sMtgu_GA" target="_blank" <h3>5 Ways to Peel Garlic</h3></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="tips">
+        <a href="#"><img src="Image/fish.jpg" title="Click the button to see more!" alt="Easiest way to clean fish"></a>
+      </div>
+      <div class="subtitle">
+        <input type="button" class="button" value="Easiest Way to Clean Fish" onclick="tips1();" />
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container2">
+    <div class="box">
+      <div class="tips">
+        <a href="#"><img width="350" height="260" src="Image/baking.jpeg" title="Click the button to see more!" alt="Basic principle of baking"></a>
+      </div>
+      <div class="subtitle">
+        <input type="button" class="button" value="Basic Principle of Baking" onclick="tips2();" />
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="tips">
+        <a href="https://www.youtube.com/embed/x4CAz9xjwKY">
+          <iframe width="350" height="260"src="https://www.youtube.com/embed/x4CAz9xjwKY"></iframe> </a>
+      </div>
+      <div class="subtitle">
+        <a href="https://www.youtube.com/embed/x4CAz9xjwKY" target="_blank" <h3>Keep Fruits & Veggies Fresh</h3></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div>
+    <span><a name="Cookingtips"><h1>Cooking Tips & Tricks</h1></a></span>
+
+<div class="downbox">
+
+  <div class="tipsbox">
+    <div class="img1">
+  <img src="Image/egg.jpg" height="200" width="250" alt="Scramble Egg">
+    </div>
+    <div class="content">
+      <h3>Shut the stove off before <br>
+         eggs are done</h3>
+      <hr>
+      <p>The trick to great eggs is never leave a surface in contact too long with the skillet to not overcook them! Whether you scramble,
+         fry or poach, always turn off the stove a few minutes before <span id="dots">...</span>
+         <span id="more"> the eggs look done
+         even when they seem a bit runny or when the eggs are 90% cooked. The remainder of the heat will cook them to fluffy perfection.
+        This technique may take a bit of practice, but it is quite simple.</span> </p>
+          <button type="button" id="read" onclick="read()" >View More</button>
+    </div>
+  </div>
+
+  <div class="tipsbox">
+    <div class="img1">
+      <img src="Image/pastawater.jpg" height="200" width="250" alt="Pasta water">
+    </div>
+      <div class="content">
+        <h3>Use pasta water to create a pasta sauce</h3>
+        <hr>
+        <p>If you thought your pasta tasted good before, wait until you try this trick.
+            The salty water will add more flavor to your dish. Reserved pasta water also
+            contain starch that can be used to adjust the consistency of sauce.<span id="dots2">..</span>
+            <span id="more2">  Pasta water works best when added to sauce made in a pan—that means noodles enjoyed with marinara sauce or Bolognese don't really have a need for the starchy cooking water. But should you find that your sauce is too thick, or that it isn't clinging to your pasta enough, instead of adding more oil use a little pasta water to thin it out. Knowing when to use pasta water just takes a bit of training. Think a step ahead: Catch yourself before you drain the pasta in a colander, and ladle a cup or two of water from the pot. Even more efficient is the professional cook's technique: Skip the colander and scoop the cooked pasta with a mesh spider directly from the pot into a waiting skillet.
+            To set up for this restaurant-like method, follow these simple steps: While your pasta water is coming to a boil, create the base of your sauce in a large skillet. Melt butter or heat olive oil, and cook onions, garlic, or other soffrito. This is also the point at which you would cook sausage or cured meats, such as pancetta, guanciale, or bacon, rendering the fat and browning the meat.
+            Next you'll build another layer of flavor: Add any vegetables that you're including. Give them space in the pan if they need it.
+            Mushrooms don't like to be crowded and should be cooked in batches, whereas dark, leafy greens can be piled on top of each other and tossed as they cook and wilt down into a smaller amount.</span></p>
+            <button type="button" id="read2" onclick="read2()">View More</button>
+      </div>
+    </div>
+
+    <div class="tipsbox">
+      <div class="img1">
+        <img src="Image/herb.jpg" height="200" width="250" alt="Herb">
+      </div>
+        <div class="content">
+          <h3>Chop herbs with salt</h3>
+          <hr>
+          <p>To prevent herbs from flying all over the place when chopping,
+            sprinkle a bit of salt onto the board. The coarse salt gives the whole chopping process some "teeth" and this will keep them in the place.
+            If you’ve got some leftover <span id="dots3">...</span>
+            <span id="more3"> once you’re done chopping, our next tip will keep them from going to waste.
+            The salt also dries out the herbs preserving their vivid flavor for months. You can improvise endlessly on the basic formula by improvising your own mix of herb.
+            Thyme, rosemary, and savory with a touch of lavender will make a lovely Provencal herb salt.
+            The herb salt makes a great gift. If you want to make a lot of herb salt,
+            Do it in batches, rather than all at once, to retain the right texture.</p>
+          <button type="button" id="read3" onclick="read3()">View More</button>
+
+        </div>
+      </div>
+<br><br><br>
+</div>
+</main
+>
+<div class="fixed-footer">
+         Copyright &copy; 2020 En-Lite
+    </div>
+
+  </body>
+</html>

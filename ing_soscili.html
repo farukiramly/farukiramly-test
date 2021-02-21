@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Chili Sauce</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style_ing.css">
+    <script src="script_ing.js"> </script>
+  </head>
+
+  <body>
+    <main>
+        <div class="header-img"></div>
+    </main>
+
+    <div class="ontop">
+  <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="cookbook.html">Malaysian Cuisine</a></li>
+      <li><a class="active" href="ingredients.html">Ingredients</a>
+        <ul>
+          <li> <a href="ing_kicap.html">Soy Sauce</a> </li>
+          <li> <a class="active" href="ing_soscili.html">Thai Chili Sauce</a> </li>
+          <li> <a href="ing_bawang.html">Bawang Goreng</a> </li>
+        </ul>
+      </li>
+      <li><a href="events.html">Special Events</a>
+        <ul>
+          <li> <a href="events.html">Eid al-Fitri</a> </li>
+          <li> <a href="events.html">Chinese New Year</a> </li>
+          <li> <a href="events.html">Deepavali</a> </li>
+          <li> <a href="events.html">Christmas</a> </li>
+        </ul>
+      </li>
+      <li><a href="tips.html">Tips & Insight</a>
+        <ul>
+          <li> <a href="tips.html">Cooking 101</a> </li>
+          <li> <a href="tips.html">Cooking Tips & Tricks</a> </li>
+        </ul>
+      </li>
+      <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  </div>
+
+    <div class="title-img"></div>
+
+    <div class="content">
+      <button type="button" class="btn" onclick="document.getElementById('time1').innerHTML=Date() + ' (double click button to hide)'"
+    ondblclick="document.getElementById('time1').innerHTML=' '">What time & day is it in Malaysia now?</button> <br>
+
+      <br><p id="time1"></p>
+
+    </div>
+
+    <div class="content">
+      <h3>Thai Chili Sauce</h3>
+
+        <p>Thai Chili Sauce is almost similar to your typical chili sauce <br>
+          except for the fact that it is sweeter because of the addition of sweetening ingredient <br>
+          such as fruit or a refined sugar or honey.</p>
+
+    </div>
+
+    <main class="container1">
+      <section class="card">
+          <img src=Image/sosmaepranom.jpg title="Maepranom Thai Chili Sauce" alt="Maepranom Thai Chili Sauce">
+          <div class="content">
+              <br><br><h3>Maepranom Thai Chili Sauce</h3>
+              <p> <br> This legendary Thai chili sauce from one of the famous brand in Thailand
+                is perfect for dipping of almost anything. <br>
+                Spring rolls, grilled chicken, fried fish cakes - just name it. <br>
+                It almost impossible for it to not taste good with anything!</p>
+              <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/MAEPRANOM-BRAND-SWEET-CHILI-SAUCE-980GM-SOS-CILI-THAI-甜鸡酱-i.82250770.7502661714'">Purchase this!</button> <br>
+          </div>
+      </section>
+
+      <section class="card">
+            <img src="Image/soslife.jpeg" title="Life Thai Chili Sauce" alt="Life Thai Chili Sauce">
+            <div class="content">
+                <br><br><h3>Life Thai Chili Sauce</h3>
+                <p>Life Sauce products including Life Thai Chili Sauce <br>
+                  have became well known in Malaysia as the official sauce for <br>KFC fried chicken.
+                  With that being said, it is best for you <br>to have this sauce with your favourite fired chicken!</p>
+                <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/LIFE-SOS-CILI-THAI-LIFE-JUMBO-THAI-CHILI-SAUCE-750G-i.130060180.2128493211'">Purchase this!</button> <br>
+
+            </div>
+        </section>
+
+  <section class="card">
+      <img src="Image/soskimball.jpg" title="Kimball Thai Chili Sauce" alt="Kimball Thai Chili Sauce">
+      <div class="content">
+          <br><br><h3>Kimball Thai Chili Sauce</h3>
+        <p><br>  Was introduced back in 1999 to Malaysian market, <br>
+          this sauce has no artificial colouring, no artificial flavouring, <br>and no preservatives.
+          If you want to have a hint of sweet and <br>spicy in your dish, this is definitely a great choice!</p>
+        <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/KIMBALL-THAI-CHILLI-SAUCE-520-G-i.149633704.5502984866'">Purchase this!</button> <br>
+      </div>
+  </section>
+</main>
+
+<button type="button" class="btn" name="readmore" onclick="document.location='ingredients.html'">Go back to Ingredients page!</button> <br>
+
+<div class="fixed-footer">
+         Copyright &copy; 2020 En-Lite
+    </div>
+  </body>
+</html>

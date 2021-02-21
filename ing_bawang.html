@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bawang Goreng</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style_ing.css">
+    <script src="script_ing.js"> </script>
+  </head>
+
+  <body>
+    <main>
+        <div class="header-img"></div>
+    </main>
+
+    <div class="ontop">
+  <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="cookbook.html">Malaysian Cuisine</a></li>
+      <li><a class="active" href="ingredients.html">Ingredients</a>
+        <ul>
+          <li> <a href="ing_kicap.html">Soy Sauce</a> </li>
+          <li> <a href="ing_soscili.html">Thai Chili Sauce</a> </li>
+          <li> <a class="active"  href="ing_bawang.html">Bawang Goreng</a> </li>
+        </ul>
+      </li>
+      <li><a href="events.html">Special Events</a>
+        <ul>
+          <li> <a href="events.html">Eid al-Fitri</a> </li>
+          <li> <a href="events.html">Chinese New Year</a> </li>
+          <li> <a href="events.html">Deepavali</a> </li>
+          <li> <a href="events.html">Christmas</a> </li>
+        </ul>
+      </li>
+      <li><a href="tips.html">Tips & Insight</a>
+        <ul>
+          <li> <a href="tips.html">Cooking 101</a> </li>
+          <li> <a href="tips.html">Cooking Tips & Tricks</a> </li>
+        </ul>
+      </li>
+      <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  </div>
+
+    <div class="title-img"></div>
+
+    <div class="content">
+      <button type="button" class="btn" onclick="document.getElementById('time1').innerHTML=Date() + ' (double click button to hide)'"
+    ondblclick="document.getElementById('time1').innerHTML=' '">What time & day is it in Malaysia now?</button> <br>
+
+      <br><p id="time1"></p>
+
+    </div>
+
+    <div class="content">
+      <h3>Bawang Goreng</h3>
+
+        <p>Bawang Goreng is crispy fried shallots condiment, a popular garnishing to be sprinkled upon various dishes.<br>
+        Even a plain congee can become tastier when you add a sprinkle of bawang goreng on top of it. <br>
+        That's just how magical bawang goreng is! </p>
+
+    </div>
+
+    <main class="container1">
+      <section class="card">
+          <img src=Image/bwgnuha.jpeg title="Bawang Goreng Nuha" alt="Bawang Goreng Nuha">
+          <div class="content">
+              <br><br><h3>Bawang Goreng Nuha</h3>
+              <p> <br>This premium bawang goreng brand offers you <br>crispy bawang goreng with healthier benefit<br>
+                as it does not have any added sugar.<br> With only 3 ingredients: shallots, oil and salt, <br>
+                this bawang goreng is a go-to bawang goreng <br>for your healthy diet choice!</p>
+              <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/🔥🔥🔥hot-items-Bawang-goreng-Nuha-(180gram)🔥🔥🔥-i.59881839.5115643551'">Purchase this!</button> <br>
+          </div>
+      </section>
+
+      <section class="card">
+            <img src="Image/bwgsuci.jpeg" title="Bawang Goreng Suci" alt="Bawang Goreng Suci">
+            <div class="content">
+                <br><br><h3>Bawang Goreng Suci</h3>
+                <p> <br> This one is especially for those with big families.<br>
+                  A bigger package with cheaper price for longer use.<br>
+                  It's definitely a bargain for you without compromising the taste!</p>
+                <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/Suci-Fried-Onions-Bawang-Goreng-Suci-i.347145.950214554'">Purchase this!</button> <br>
+
+            </div>
+        </section>
+
+  <section class="card">
+      <img src="Image/bwgsahimi.jpg" title="Bawang Goreng Sahimi" alt="Bawang Goreng Sahimi">
+      <div class="content">
+          <br><br><h3>Bawang Goreng Sahimi</h3>
+          <p><br> In contrast to Suci, Sahimi provides <br> various sizes of bawang goreng starting from 80g up until 1kg.<br>
+            With this being said, anyone either a student <br> who want to buy it for personal use<br>
+            or a hawker who want to use it for commercial use <br> can opt for this brand.</p>
+          <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/Sahimi-Bawang-Goreng-80-200-400g-i.347145.4514958998'">Purchase this!</button> <br>
+
+      </div>
+  </section>
+</main>
+
+<button type="button" class="btn" name="readmore" onclick="document.location='ingredients.html'">Go back to Ingredients page!</button> <br>
+
+<div class="fixed-footer">
+         Copyright &copy; 2020 En-Lite
+    </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soy Sauce</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style_ing.css">
+    <script src="script_ing.js"> </script>
+  </head>
+
+  <body>
+    <main>
+        <div class="header-img"></div>
+    </main>
+
+    <div class="ontop">
+  <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="cookbook.html">Malaysian Cuisine</a></li>
+      <li><a class="active" href="ingredients.html">Ingredients</a>
+        <ul>
+          <li> <a class="active" href="ing_kicap.html">Soy Sauce</a> </li>
+          <li> <a href="ing_soscili.html">Thai Chili Sauce</a> </li>
+          <li> <a href="ing_bawang.html">Bawang Goreng</a> </li>
+        </ul>
+      </li>
+      <li><a href="events.html">Special Events</a>
+        <ul>
+          <li> <a href="events.html">Eid al-Fitri</a> </li>
+          <li> <a href="events.html">Chinese New Year</a> </li>
+          <li> <a href="events.html">Deepavali</a> </li>
+          <li> <a href="events.html">Christmas</a> </li>
+        </ul>
+      </li>
+      <li><a href="tips.html">Tips & Insight</a>
+        <ul>
+          <li> <a href="tips.html">Cooking 101</a> </li>
+          <li> <a href="tips.html">Cooking Tips & Tricks</a> </li>
+        </ul>
+      </li>
+      <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  </div>
+
+    <div class="title-img"></div>
+
+    <div class="content">
+      <button type="button" class="btn" onclick="document.getElementById('time1').innerHTML=Date() + ' (double click button to hide)'"
+    ondblclick="document.getElementById('time1').innerHTML=' '">What time & day is it in Malaysia now?</button> <br>
+
+      <br><p id="time1"></p>
+
+    </div>
+
+    <div class="content">
+      <h3>Soy Sauce</h3>
+
+        <p>Soy sauce, also known as Kicap here in Malaysia, is an East Asian liquid condiment of Chinese origin,<br>
+           with a fermented paste of soybeans as the main ingredient.</p>
+
+    </div>
+
+    <main class="container1">
+      <section class="card">
+          <img src=Image/kicapkipasudang.jpeg title="Kicap Kipas Udang" alt="Kicap Kipas Udang">
+          <div class="content">
+              <br><br><h3>Kicap Kipas Udang</h3>
+              <p><br>Perhaps one of the most iconic soy sauce in Malaysia, <br> these soy sauce from the brand that has the image of
+              prawn <br>in a fan shape, are our personal favourite to be used <br>in soy-based dish such as Ayam Kicap.<br>
+              The strong traditional taste of soy bean will <br>definitely help to add the 'kick' to your dish. </p><br><br>
+
+              <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/HABHAL’S-KICAP-LEMAK-MANIS-CAP-KIPAS-UDANG-RED-345ML-i.59600408.1378883609'">Purchase this!</button> <br>
+          </div>
+      </section>
+
+      <section class="card">
+            <img src="Image/kicapjalen.jpeg" title="Kicap Jalen" alt="Kicap Jalen">
+            <div class="content">
+                <br><br><h3>Kicap Jalen</h3>
+                <p><br>This local brand has been the ultimate choice <br>for Malaysian for years. <br>
+                  There are four variations available:<br> Manis, Masin, Lemak, Lemak Manis.<br>
+                Each variation is invented for different taste bud of Malaysians.<br>
+                You will definitely find one that suits you!</p><br>
+
+              <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/KICAP-JALEN-(-JALEN-KICAP-LEMAK-MANIS-JALEN-KICAP-MANIS)-i.145322602.3425483453'">Purchase this!</button> <br>
+
+            </div>
+        </section>
+
+  <section class="card">
+      <img src="Image/kicapabc.jpg" title="Kicap ABC" alt="Kicap ABC">
+      <div class="content">
+          <br><br><h3>Kicap ABC</h3>
+          <p><br>This Indonesian brand sweet soy sauce <br>is very thick and has rich caramel-colored sauce. <br>
+             It is naturally sweetened with sun-dried palm tree sugar <br>
+             and adds an aromatic, sweet flavor to any dish.<br>
+            We personally love to pair this soy sauce with the spicy Ayam Gepuk!</p><br>
+          <button type="button" class="btn" name="readmore" onclick="document.location='https://shopee.com.my/Kicap-ABC-ABC-Sos-Manis-i.12038373.1485740619'">Purchase this!</button> <br>
+      </div>
+  </section>
+</main>
+
+
+<button type="button" class="btn" name="readmore" onclick="document.location='ingredients.html'">Go back to Ingredients page!</button> <br>
+
+
+
+<div class="fixed-footer">
+         Copyright &copy; 2020 En-Lite
+    </div>
+  </body>
+</html>
